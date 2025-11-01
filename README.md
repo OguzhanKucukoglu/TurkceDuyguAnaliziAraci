@@ -2,7 +2,7 @@
 
 Bu proje, Python ve Hugging Face Transformers kütüphanesini kullanarak verilen Türkçe metinlerin (tweet, yorum vb.) duygu analizini (Pozitif, Negatif, Nötr) yapan bir komut satırı aracıdır.
 
-![Örnek Grafik](duygu_grafik.png)  ## ✨ Özellikler
+![Örnek Grafik](ornek_grafik.png)  ## ✨ Özellikler
 
 * `.txt` (satır satır) veya `.csv` (belirtilen sütundan) dosyalarından metin okuma.
 * Güçlü `savasy/bert-base-turkish-sentiment-cased` modelini kullanarak yüksek doğruluklu analiz.

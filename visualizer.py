@@ -1,5 +1,3 @@
-# visualizer.py
-
 import matplotlib.pyplot as plt
 import pandas as pd
 
@@ -29,10 +27,8 @@ def create_sentiment_chart(df, output_filename="duygu_analizi_grafik.png"):
     for i, v in enumerate(duygu_dagilimi.values):
         plt.text(i, v + 0.1, str(v), ha='center', fontweight='bold')
     
-    # Grafiği ekranda göstermek yerine dosyaya kaydet (GitHub için daha iyi)
     try:
         plt.savefig(output_filename)
         print(f"Grafik başarıyla '{output_filename}' olarak kaydedildi.")
-        # plt.show() # İsteğe bağlı olarak yine de gösterebilirsiniz
     except Exception as e:
         print(f"Grafik kaydedilirken hata oluştu: {e}")
